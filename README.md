@@ -8,3 +8,28 @@ mkdir build; cd build
 cmake ..
 make
 '''
+
+Intel oneAPI Math Kernel Libray
+
+
+
+Intel VTune Profile
+
+
+Intel MPI Library
+
+
+
+
+Intel oneAPI DPC++/C++ compiler
+'''
+cmake.
+make
+'''
+LVMM has been written in cmakefile
+
+oneapi::gdb
+
+'''
+gdb-oneapi ./ADMM_Solver_sycl
+'''
