@@ -16,16 +16,15 @@ make
 
 Intel oneAPI Math Kernel Libray
 
-
+Math Kernel has been written in cmakefile
 
 Intel VTune Profile
 
-vtune -collect hotspots -result-dir=./test/r000hs -- ./
+vtune -collect hotspots -result-dir=./test/r000hs -- ./ADMM_Solver_sycl
 
 Intel MPI Library
 
 MPI has been written in cmakefile
-
 
 Intel oneAPI DPC++/C++ compiler
 
