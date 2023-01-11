@@ -16,16 +16,19 @@ Intel oneAPI Math Kernel Libray
 Intel VTune Profile
 
 
+
 Intel MPI Library
 
-
+MPI has been written in cmakefile
 
 
 Intel oneAPI DPC++/C++ compiler
+
 '''
 cmake.
 make
 '''
+
 LVMM has been written in cmakefile
 
 oneapi::gdb
