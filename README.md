@@ -16,19 +16,19 @@ make
 
 '''
 
-Intel oneAPI Math Kernel Libray
+# Intel oneAPI Math Kernel Libray
 
 Math Kernel has been written in cmakefile
 
-Intel VTune Profile
+# Intel VTune Profile
 
 vtune -collect hotspots -result-dir=./test/r000hs -- ./ADMM_Solver_sycl
 
-Intel MPI Library
+# Intel MPI Library
 
 MPI has been written in cmakefile
 
-Intel oneAPI DPC++/C++ compiler
+# Intel oneAPI DPC++/C++ compiler
 
 '''
 
@@ -37,10 +37,11 @@ cmake.
 make
 
 '''
+# LVMM
 
 LVMM has been written in cmakefile
 
-oneapi::gdb
+# oneapi::gdb
 
 '''
 
